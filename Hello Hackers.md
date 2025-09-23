@@ -36,6 +36,8 @@ This is called the "prompt", and it's prompting us to enter an command.
 2)Once we enter the command and click enter ,the command will be executed and a new prompt will open waiting for the next command.
 3)Commands in Linux are case sensitive: hello is different from HELLO.
 4)After every command we need to click enter key to run it .
+5)How to launch a terminal and how and what a command is.
+ Command: It is a insturuction given by the user in the terminal to perform a specific task.
 
 ## Intro to Arguments 
 In this challenge, to get the flag, you must run the hello command with an 
@@ -69,6 +71,8 @@ I read the instructions given under the challenge and noticed that we need to in
 Example :hacker@dojo:~$ echo hello hackers
 hello hackers
 3) We can use echo command for multiple arguments.
+4) How to launch a terminal and what is an argument and how to use it.
+Arguments : Arguments are the inputs provided to a command in the terminal. They modify the command's behavior .
 
 ## Command History
 In this Challenge we need to bring up the last command we used in the terminal.By doind this challenge we get the flag that is in the command history.
@@ -98,6 +102,7 @@ I read the instructions given under the challenge and noticed that we need to cl
 1)I can assess the previous command by clicking the up arrow key in our keyboard.
 2)We can assess the whole history but once at a time by clicking the up arrow key in our keyboard as many times we want , the command appears after the prompt.
 3) This helps us to remember the previous commands of what we have used or check out large commands that we have used.
+4) How to launch a terminal and how to retrieve the previous command we used .
 
 ## Referenceces
 I listened and learnt from the videos that are given in the pwn.college website by Hacker Yan.
