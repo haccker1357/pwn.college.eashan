@@ -15,18 +15,18 @@ pwn.college{062yPSfUbRzLGg7X3ckerBeS7mO.QX3QTN0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2)Open the terminal enter ( /challenge/run ) . It will show as Incorrect,Not using the required directory.
-''' bash
+``` bash
 hacker@paths~position-elsewhere:~$ /challenge/run
 Incorrect...
 You are not currently in the /usr/aarch64-linux-gnu/include/gnu directory
-'''
+```
 3) Then change the directory to /usr/aarch64-linux-gnu/include/gnu using the ( cd ) command.
 4)Then rerun the challenge again to get the required challenge flag.
-''' bash
+``` bash
 hacker@paths~position-elsewhere:~$ cd /usr/aarch64-linux-gnu/include/gnu
 hacker@paths~position-elsewhere:/usr/aarch64-linux-gnu/include/gnu$ /challenge/run
 Correct!!!
@@ -34,7 +34,7 @@ Correct!!!
 Here is your flag:
 pwn.college{062yPSfUbRzLGg7X3ckerBeS7mO.QX3QTN0wCNyUzNzEzW}
 hacker@paths~position-elsewhere:/usr/aarch64-linux-gnu/include/gnu$
-'''
+```
 5)Success, Now copy and paste the flag in the pwn.college website. And the challenge is completed.
 
 ## What I Learned
@@ -52,18 +52,18 @@ pwn.college{0wgbaJcwLZ6fIgKiNjM_zt_ydfH.QX4QTN0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2)Open the terminal enter ( /challenge/run ) . It will show as Incorrect,Not using the required directory.
-''' bash
+``` bash
 hacker@paths~position-elsewhere:~$ /challenge/run
 Incorrect...
 You are not currently in the /home directory
-'''
+```
 3) Then change the directory to /home using the ( cd ) command.
 4)Then rerun the challenge again to get the required challenge flag.
-''' bash
+``` bash
 hacker@paths~position-elsewhere:~$ cd /home
 hacker@paths~position-elsewhere:/home$ /challenge/run
 Correct!!!
@@ -71,7 +71,7 @@ Correct!!!
 Here is your flag:
 pwn.college{0wgbaJcwLZ6fIgKiNjM_zt_ydfH.QX4QTN0wCNyUzNzEzW}
 hacker@paths~position-elsewhere:/home$
-'''
+```
 5)Success, Now copy and paste the flag in the pwn.college website. And the challenge is completed.
 
 ## What I Learned
@@ -93,12 +93,12 @@ pwn.college{g5BkMPJek0A_8X6a78fTHYVz2Va.QX5QTN0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2)We Need to change the directory to ( / ) using the ( cd ) command.
 3)Then run the program challenge/run to secure the flag.
-''' bash
+``` bash
 hacker@paths~implicit-relative-paths-from-:~$ cd /
 hacker@paths~implicit-relative-paths-from-:/$ challenge/run
 Correct!!!
@@ -112,7 +112,7 @@ hacker@paths~implicit-relative-paths-from-:/$
 1)What is Relative path.
 Relative Path : Relative path specifies the location of a file or directory relative to the current working directory.
 2) Difference between Absolute Path and Relative Path.
-Absolute path starts with the root directory while the relative path does't.
+Absolute path starts with the root directory while the relative path does`t.
 But the current working directory ( cwd ) matters in the relative path .
 
 ## Explicit  Relative Paths, from /
@@ -123,20 +123,20 @@ pwn.college{8NpelOHd8jyraxRxDCdbZDxkzfl.QXwUTN0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2)We Need to change the directory to ( / ) using the ( cd ) command.
 3)This challenge need us to use the current directory ( . ) in the relative path from the above challenge.
 4) We need to run the path ( ./challenge/run ) in the terminal to secure the require flag to complete the challenge.
-''' bash
+``` bash
 hacker@paths~explicit-relative-paths-from-:~$ cd /
 hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
 Correct!!!
 ./challenge/run is a relative path , invoked from the right directory!
 Here is your flag:
 pwn.college{8NpelOHd8jyraxRxDCdbZDxkzfl.QXwUTN0wCNyUzNzEzW}
-'''
+```
 5)Copy and Paste the flag in the pwn.college website to complete the challenge.
 
 ## What i Learned
@@ -146,11 +146,12 @@ pwn.college{8NpelOHd8jyraxRxDCdbZDxkzfl.QXwUTN0wCNyUzNzEzW}
  challenge
 ./challenge
 ./././challenge give the same output
-''' bash
+``` bash
 hacker@paths~explicit-relative-paths-from-:/$ ./challenge/run
 Correct!!!
 ./challenge/run is a relative path, invoked from the right directory!
-'''
+
+```
 ## Referenceces
 I listened and learnt from the videos that are given in the pwn.college website by Hacker Yan.
 The Video is ( https://www.youtube.com/watch?v=b67Jq6IZ3U8 )
