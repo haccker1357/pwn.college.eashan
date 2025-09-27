@@ -2,8 +2,9 @@
 This  is the third module in the the Linux Luminarium.This Module contains 14 challenges.
 1) cat :not the pet , but the command.
 2) Catting absolute paths .
-3) Grepping for a needle in a hay stack . 
-4) Comparing files . 
+3) More Catting Pratice .
+4) Grepping for a needle in a hay stack . 
+5) Comparing files . 
 
 ## cat :not the pet , but the command
 In this challenge we need to use the ( cat ) command to the file name ( flag ) to display  the flag.
