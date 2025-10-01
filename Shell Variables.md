@@ -186,6 +186,40 @@ hacker@variables~printing-exported-variables:~$
 #What i Learned
 1) How to print every exported variable in the shell.
 
+## Storing Command Output
+This challenge requires us to redirect the output of a command to an variable.
+
+**Flag**
+pwn.college{0ZTZNmmGpcv4B0LnrAnZyZeDSqu.QX1cDN1wCNyUzNzEzW}
+
+#Process
+1) First  we need to connect the challenge to the terminal using
+``` bash
+ssh -i ./key hacker@dojo.pwn.college
+```
+2) First we need to store thw output of /challenge/run into the variable PWN.
+3) Enter PWN=$(/challenge/run)
+4) Then we need to print the variable using echo command.
+5) Enter echo "$PWN"
+
+``` bash
+Connected!
+hacker@variables~storing-command-output:~$ PWN=$(/challenge/run)
+Congratulations! You have read the flag into the PWN variable. Now print it out
+and submit it!
+Congratulations! You have read the flag into the PWN variable. Now print it out
+and submit it!
+hacker@variables~storing-command-output:~$ echo "$PWN"
+pwn.college{0ZTZNmmGpcv4B0LnrAnZyZeDSqu.QX1cDN1wCNyUzNzEzW}PWN=pwn.college{0ZTZNmmGpcv4B0LnrAnZyZeDSqu.QX1cDN1wCNyUzNzEzW}
+hacker@variables~storing-command-output:~$
+```
+6) Copy and Paste the flag in the pwn.college website to complete the challenge.
+
+#What i Learned
+1) How to redirect the output of an command to an Variable.
+2) Howto print the variable.
+3) This challenge requies all the knowledge we hained till now.
+
 ## Reading input
 This challenge requires us to read a variable.
 
