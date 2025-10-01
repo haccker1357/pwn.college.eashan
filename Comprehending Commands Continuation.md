@@ -19,14 +19,14 @@ pwn.college{E8zPg7cyvWxF1fIKtLvL9pTKshx.QX4IDO0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2) We need to list the files in the /challenge to fined the name of the ( /challenge/run ).
 3)To list the files we need to use the listing ( ls ) command .
 4) Enter ls /challenge in the terminal to find the name .
 5) After finding the name run ( /challenge/( name ) ) in the terminal to secure the flag .
-''' bash 
+``` bash 
 Connected!
 hacker@commands~listing-files:~$ ls /challenge
 24173-renamed-run-18287  DESCRIPTION.md
@@ -34,7 +34,7 @@ hacker@commands~listing-files:~$ /challenge/24173-renamed-run-18287
 Yahaha, you found me! Here is your flag:
 pwn.college{E8zPg7cyvWxF1fIKtLvL9pTKshx.QX4IDO0wCNyUzNzEzW}
 hacker@commands~listing-files:~$
-'''
+```
 6) Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 # What i learned
@@ -51,12 +51,12 @@ pwn.college{YXTSn7VWz1fVOcnmAz88SFPV9PR.QXwMDO0wCNyUzNzEzW}
 
 # Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2) We need to create two files ( /tmp/pwn and /tmp/college ) using ( touch ) command .
 4) Then run ( /challenge/run ) to secure the flag .
-''' bash 
+``` bash 
 Connected!
 hacker@commands~touching-files:~$ cd /tmp
 hacker@commands~touching-files:/tmp$ ls
@@ -67,7 +67,7 @@ hacker@commands~touching-files:/tmp$ /challenge/run
 Success! Here is your flag:
 pwn.college{YXTSn7VWz1fVOcnmAz88SFPV9PR.QXwMDO0wCNyUzNzEzW}
 hacker@commands~touching-files:/tmp$
-'''
+```
 5) Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 ##What i Learned
@@ -83,13 +83,13 @@ pwn.college{o0n4CQCb3xJqidm6lgjq1X5Crzu.QX2kDM1wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2)We need to first create a new file named ( delete_me ) using the touch command .
 3)After creating the file we need to delete that file which we created using ( rm ) command .
 5) Then run ( /challenge/check ) to check if we created and deleted the file and then provide us with the flag .
-''' bash 
+``` bash 
 Connected!
 hacker@commands~removing-files:~$ touch delete_me
 hacker@commands~removing-files:~$ ls
@@ -99,7 +99,7 @@ hacker@commands~removing-files:~$ /challenge/check
 Excellent removal. Here is your reward:
 pwn.college{o0n4CQCb3xJqidm6lgjq1X5Crzu.QX2kDM1wCNyUzNzEzW}
 hacker@commands~removing-files:~$
-'''
+```
 6) Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 #What i Learned
@@ -115,13 +115,13 @@ pwn.college{AUnj-sAQ21Xi_vR7iw0d1-OdMvJ.0VOxEzNxwCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2) We need to move the file( /flag ) into ( /tmp/hack-the-planet ) using the ( mv ) command .
 3)After moving we need to run /challenge/check to check if had moved it or not and then give our flag .
 
-''' bash 
+``` bash 
 Connected!
 hacker@commands~moving-files:~$ ls
 a
@@ -132,7 +132,7 @@ Congrats! You successfully moved the flag to /tmp/hack-the-planet! Here it is:
 pwn.college{AUnj-sAQ21Xi_vR7iw0d1-OdMvJ.0VOxEzNxwCNyUzNzEzW}
 
 hacker@commands~moving-files:~$
-
+```
 4) Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 #What i Learned
@@ -149,13 +149,13 @@ In this challenge we learn how to see the hidden files in the file . Which canno
 pwn.college{AxsQTfkeYJTEe5ubO7egdKif4oB.QXwUDO0wCNyUzNzEzW}
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2) We need to change the directory from ~ to / as given .
 3) Then use the command ( ls -a ) to show the hidden files in the directory .
 5) After reading all the hidden files cat the file we need to secure the flag .
-''' bash 
+``` bash 
 hacker@commands~hidden-files:~$ cd
 hacker@commands~hidden-files:~$ cd /
 hacker@commands~hidden-files:/$ ls -a
@@ -164,8 +164,8 @@ hacker@commands~hidden-files:/$ ls -a
 hacker@commands~hidden-files:/$ cat .flag-134508076394
 pwn.college{AxsQTfkeYJTEe5ubO7egdKif4oB.QXwUDO0wCNyUzNzEzW}
 hacker@commands~hidden-files:/$
-'''
-6) Copy and Paste the flag in the pwn.college website to complete the challenge .
+```
+7) Copy and Paste the flag in the pwn.college website to complete the challenge .
 
  # What i Learned
 1) We cannot see every file in the directory using the ( ls  ) command . Some files can be hidden .
@@ -181,11 +181,11 @@ pwn.college{cVNhuIYZCTtEXGSXMwpY9wqGePa.QX5IDO0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2) We need to use all our knowledge we have learnt till now to get tha flag and comple the challenge .
-''' bash
+ ``` bash
 Connected!
 hacker@commands~an-epic-filesystem-quest:~$ cd /
 hacker@commands~an-epic-filesystem-quest:/$ ls
@@ -281,7 +281,7 @@ hacker@commands~an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/crypto/med
 CONGRATULATIONS! Your perserverence has paid off, and you have found the flag!
 It is: pwn.college{cVNhuIYZCTtEXGSXMwpY9wqGePa.QX5IDO0wCNyUzNzEzW}
 hacker@commands~an-epic-filesystem-quest:/opt/linux/linux-5.4/drivers/crypto/mediatek$
-'''
+```
 3)Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 # What i Learned
@@ -295,15 +295,15 @@ pwn.college{wynaq56nQG44ZX3grmjRxVsgglu.QXxMDO0wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2) First we need to create a directory ( /tmp/pwn ) and then create a file (college) in it and then run ( /challenge/run ) .
 3) First make a new directory ( /tmp/pwn ) using command ( mkdir ).
 4) Then change the directory into the created directory using the cd command.
 5)Then create a file ( college 0 in it .
 6) And then run ( /challenge/run ) to get the flag .
-''' bash
+``` bash
 Connected!
 hacker@commands~making-directories:~$ mkdir /tmp/pwn
 hacker@commands~making-directories:~$ cd /tmp/pwn
@@ -312,7 +312,7 @@ hacker@commands~making-directories:/tmp/pwn$ /challenge/run
 Success! Here is your flag:
 pwn.college{wynaq56nQG44ZX3grmjRxVsgglu.QXxMDO0wCNyUzNzEzW}
 hacker@commands~making-directories:/tmp/pwn$
-'''
+```
 7)Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 # What i Learned
@@ -320,11 +320,6 @@ hacker@commands~making-directories:/tmp/pwn$
 2)I learned what is ( mkdir ) command and how it is used .
 mkdir : The mkdir command in Linux is used to create new directories (also known as folders) in the file system.
 3) Structure : mkdir argument(Name of the directory which we need to create ) .
-
-## Finding Files
-In this challenge we need to find the flag which is placed in some random directory under some random name .
-
-**Flag**
 
 
 ## Linking Links
@@ -335,19 +330,19 @@ pwn.college{g2y6bKhdaG28_SDJq3GfaMYs-S4.QX5ETN1wCNyUzNzEzW}
 
 #Process
 1)First we need to connect the challenge to the terminal using
-''' bash
+``` bash
 ssh -i ./key hacker@dojo.pwn.college
-'''
+```
 2)We need to run /challenge/catflag to get the flag .
 
-''' bash
+``` bash
 Connected!
 hacker@commands~linking-files:~$ /flag
 bash: /flag: Permission denied
 hacker@commands~linking-files:~$ /challenge/catflag
 About to read out the /home/hacker/not-the-flag file!
 pwn.college{g2y6bKhdaG28_SDJq3GfaMYs-S4.QX5ETN1wCNyUzNzEzW}
-'''
+```
 3)Copy and Paste the flag in the pwn.college website to complete the challenge .
 
 #What i Learned
