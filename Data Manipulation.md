@@ -256,7 +256,37 @@ pwn.college{wPBrI_YcEmmfNSNDSKQ770Jenzw.01NxEzNxwCNyUzNzEzW}hacker@data~extracti
 1)How to extract only the required columns from the total output .
 2)For this we need to use cut command and use -d for specifing the column and column number which we want to extract .
 
+##Sorting Data
+This challenge requires us to sort the output to our own need .
 
+**Flag**
+pwn.college{s_BCcQvup4M94QBh3Of35Vpy0WF.0FM0MDOxwCNyUzNzEzW}
+
+#Process
+1)First we need to connect the challenge to the terminal using
+ ''' bash 
+ssh -i ./key hacker@dojo.pwn.college 
+'''
+2)We need to sort the output of the /challenge/flags.txt file .
+3)For this we need to use sort command .
+4)It is given that when sorting in a alphabetical way (A-Z), the required flag will be at the last.
+5)We can use the argument -r to the sort command to get the required flag first.
+6)Enter sort -r /challenge/flags.txt
+
+``` bash
+Connected!
+hacker@data~sorting-data:~$ sort -r /challenge/flags.txt
+pwn.college{s_BCcQvup4M94QBh3Of35Vpy0WF.0FM0MDOxwCNyUzNzEzW}
+```
+7)Copy and Paste the flag in the pwn.college website to complete the challenge .
+
+#What I Learned
+1)It is important to organize the output especially in the time of extensive output. 
+2)In this time we can use the sort command to organize.
+3)-r: reverse order (Z to A)
+-n: numeric sort (for numbers)
+-u: unique lines only (remove duplicates)
+-R: random order!
 
 
 
